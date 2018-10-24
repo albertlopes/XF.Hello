@@ -15,8 +15,7 @@ namespace XF.Hello
 		public HomePage ()
 		{
 			InitializeComponent ();
-
-    
+                
 		}
 
         void OnAlterarIntensidadeSlider(Object sender, EventArgs e)
