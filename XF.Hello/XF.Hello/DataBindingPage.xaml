@@ -4,9 +4,8 @@
              x:Class="XF.Hello.DataBindingPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label  Text="{ Binding Nome}" />
+            <Label  Text="{ Binding Email}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
